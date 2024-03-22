@@ -1,0 +1,52 @@
+{
+  "name": "impeditaspernatur",
+  "version": "1.0.0",
+  "description": "Cardano web3 authentication for Passport.",
+  "type": "commonjs",
+  "keywords": [
+    "passport",
+    "omnis",
+    "web3",
+    "laboriosam",
+    "pariatur",
+    "nihil",
+    "libero"
+  ],
+  "author": "TyreseWalker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoseLeannon/impeditaspernatur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RoseLeannon/impeditaspernatur.git/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "@emurgo/cardano-message-signing-nodejs": "^1.0.1",
+    "@emurgo/cardano-serialization-lib-nodejs": "^11.2.1",
+    "@types/passport": "^1.0.11",
+    "cardano-web3-utils": "^1.0.1",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-passport-strategy": "^3.0.0",
+    "eslint": "^8.31.0",
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/RoseLeannon/impeditaspernatur.git",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT",
+  "typings": "./lib/index.d.ts"
+}
